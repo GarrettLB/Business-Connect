@@ -19,7 +19,6 @@ const MyProfile = () =>{
       : 
         <>
           <Profile data={data.user} loading={loading}/>
-          <Connect />
         </>
       }
     </>
